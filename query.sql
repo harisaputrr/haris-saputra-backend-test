@@ -1,7 +1,7 @@
 select
 	m.id as id_murid,
 	m.name,
-	p.status,
+	p.status as pendidikan_terkahir,
 	m.time_create,
 	p.time_create as time_update
 from
